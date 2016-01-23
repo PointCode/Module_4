@@ -1,10 +1,6 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-
-/**
- * Created by papa on 14.12.15.
- */
 public class Loader {
     public static void main(String[] args) throws IOException {
 
