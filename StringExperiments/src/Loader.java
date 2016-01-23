@@ -1,8 +1,8 @@
 
 public class Loader
 {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args){
+
         String text = "Вася заработал 10 рублей, Петя - 7563 рубля, а Маша - 15 рублей";
        text = text.trim();
 //ищем строку заработка Васи
