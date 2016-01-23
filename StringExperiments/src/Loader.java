@@ -3,24 +3,21 @@ public class Loader
 {
     public static void main(String[] args)
     {
-        String text = "Вася заработал 100000 рублей, Петя - 7563 рубля, а Маша - 15000 рублей";
-        text.trim();
+        String text = "Вася заработал 10 рублей, Петя - 7563 рубля, а Маша - 15 рублей";
+       text = text.trim();
 //ищем строку заработка Васи
         String str = "заработал ";
-        str.trim();
 
-        int fistSym = text.indexOf("заработал ") + str.length(); //длинна строки "заработал " - 10 символов
+        int fistSym = text.indexOf(str) + str.length(); //длинна строки "заработал " - 10 символов
         int lastSym = text.indexOf(" ", fistSym);
-        String firstSumStr  = text.substring(fistSym,lastSym).trim();
+        String firstSumStr  = text.substring(fistSym,lastSym);
         int firstSum = Integer.parseInt(firstSumStr);
-
 
 //Ищем строку заработка Маши
         String str1 = "Маша - ";
-        str1.trim();
-        int fistSym1 = text.indexOf("Маша - ") + str1.length(); //длинна строки "Маша - " 7
+        int fistSym1 = text.indexOf(str1) + str1.length(); //длинна строки "Маша - " 7
         int lastSym1 = text.indexOf(" ", fistSym1);
-        String firstSumStr1  = text.substring(fistSym1,lastSym1).trim();
+        String firstSumStr1  = text.substring(fistSym1,lastSym1);
         int firstSum1 = Integer.parseInt(firstSumStr1);
 
 
