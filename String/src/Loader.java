@@ -7,29 +7,29 @@ public class Loader {
 //Вывод символов с 0 по 512
        for (int i = 0; i <= 512; i++) {
            char intCode = (char) i;
-           System.out.println(intCode);
+           System.out.println(i + "    " + intCode);
        }
         System.out.println();
 
-        int e = 277;
-        int e1 = 278;
-        char intCode1 = (char) e;
-        char intCode2 = (char) e1;
-        System.out.println("Код русской буквы " +intCode1 + " = " + e);
-        System.out.println("Код русской буквы " +intCode2 + " = " + e1);
+        int letterRus_e = 277;  //код ё
+        int letterRus_E = 1025; // код Ё
+        char intCode1 = (char) letterRus_e;
+        char intCode2 = (char) letterRus_E;
+        System.out.println("Код русской буквы " +intCode1 + " = " + letterRus_e);
+        System.out.println("Код русской буквы " +intCode2 + " = " + letterRus_E);
 
         System.out.println();
 //ищем русские символы
-        char firstRuscod = 'А'; // 1040;
-        char lastRuscod = 'я'; // 11033;
+        char firstRuscode = 'А'; // 1040;
+        char lastRuscode = 'я'; // 11033;
 
-        int firstChcode = (int) firstRuscod;
-        int lastChcode = (int) lastRuscod;
+        int firstChcode = (int) firstRuscode;
+        int lastChcode = (int) lastRuscode;
 
         System.out.println("Русские символы ");
 
-        System.out.println("Первый " + firstChcode  +" - " + firstRuscod );
-        System.out.println("Последний " + lastChcode + " - " +lastRuscod);
+        System.out.println("Первый " + firstChcode  +" - " + firstRuscode );
+        System.out.println("Последний " + lastChcode + " - " +lastRuscode);
         System.out.println();
 // Выводим русские символы и их код по UTF8
         System.out.println("Код - Символ");
@@ -39,7 +39,5 @@ public class Loader {
 
             System.out.println(i + "    " + intCode);
         }
-
-
     }
 }
