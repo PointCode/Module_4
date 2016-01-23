@@ -8,8 +8,8 @@ String str = "The quality of implementation specifications concern two propertie
 
         String[] words = str.split("[\\p{Punct}\\s*]");
 
-        for (String word: words)
-        {
+        for (String word: words){
+
             System.out.println(word);
         }
     }

@@ -11,12 +11,12 @@ public class Loader {
        }
         System.out.println();
 
-        int letterRus_e = 277;  //код ё
-        int letterRus_E = 1025; // код Ё
-        char intCode1 = (char) letterRus_e;
-        char intCode2 = (char) letterRus_E;
-        System.out.println("Код русской буквы " +intCode1 + " = " + letterRus_e);
-        System.out.println("Код русской буквы " +intCode2 + " = " + letterRus_E);
+        int codeLittleRusLetter = 277;  //код ё
+        int codeLargeRusletter = 1025; // код Ё
+        char littleRusLetter = (char) codeLittleRusLetter ;
+        char largeRusletter = (char) codeLargeRusletter ;
+        System.out.println("Код русской буквы " + littleRusLetter + " = " + codeLittleRusLetter );
+        System.out.println("Код русской буквы " + largeRusletter + " = " + codeLargeRusletter);
 
         System.out.println();
 //ищем русские символы
