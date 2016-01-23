@@ -1,6 +1,4 @@
-/**
- * Created by papa on 14.12.15.
- */class Convoy {
+class Convoy {
     private int boxInCont;
     private int containerInAvto;
 
