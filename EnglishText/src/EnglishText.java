@@ -20,7 +20,7 @@ String str = "The quality of implementation specifications concern two propertie
         "computed result; otherwise, either of the two floating-point values which bracket the exact " +
         "result may be returned.";
 
-        String[] words = str.split("[^a-zA-Z0-9.,]");
+        String[] words = str.split("[^a-zA-Z0-9.,;]");
 
         for (String word: words){
 
