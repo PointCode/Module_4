@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e69778b9-0b52-430e-a36b-85a9b49a53b7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Name.java" afterPath="$PROJECT_DIR$/src/Name.java" />
     </list>
     <ignored path="Name.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -150,7 +149,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../StringExperiments" />
   </component>
   <component name="RunManager" selected="Application.Name">
     <configuration default="false" name="Name" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -310,7 +309,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ДОбавленн вывод ФИО с помощью регулярки" />
-    <option name="LAST_COMMIT_MESSAGE" value="ДОбавленн вывод ФИО с помощью регулярки" />
+    <MESSAGE value="Добавленн вывод ФИО с помощью регулярки" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавленн вывод ФИО с помощью регулярки" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
