@@ -9,8 +9,6 @@ public class NameRegular {
 
         BufferedReader br  = new BufferedReader(new InputStreamReader(System.in));
         String str = br.readLine();
-
-
         String[] words = str.split("[\\s*]");
 
         System.out.println("Фамилия: " + words[0]);
