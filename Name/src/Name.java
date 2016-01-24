@@ -2,13 +2,10 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-/**
- * Created by papa on 15.12.15.
- */
 public class Name {
-    public static void main(String[] args)  throws IOException
-    {
-                System.out.println("Введите фамилию имя и отчество: ");
+    public static void main(String[] args)  throws IOException {
+
+        System.out.println("Введите фамилию имя и отчество: ");
 
         BufferedReader br  = new BufferedReader(new InputStreamReader(System.in));
         String str = br.readLine();
