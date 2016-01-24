@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c231ce39-21c2-4bee-9a12-9fac9e2dfe2c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/core/Camera.java" afterPath="$PROJECT_DIR$/src/core/Camera.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/core/Police.java" afterPath="$PROJECT_DIR$/src/core/Police.java" />
     </list>
     <ignored path="RoadController.iws" />
     <ignored path=".idea/workspace.xml" />
