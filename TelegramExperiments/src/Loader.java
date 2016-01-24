@@ -15,7 +15,6 @@ public class Loader {
 
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         TelegramApiBridge bridge = new TelegramApiBridge("149.154.167.50:443",24166,"1963c8d6a3afe0d9a75e676bcae679dd");
-
         System.out.println("PLEASE ENTER YOUR PHONE:  ");
         String phone = reader.readLine().trim();
 
