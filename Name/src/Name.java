@@ -10,8 +10,6 @@ public class Name {
         BufferedReader br  = new BufferedReader(new InputStreamReader(System.in));
         String str = br.readLine();
 
-        System.out.println();
-
 // Ищем фамилию
         int firstSym = str.indexOf(" ", 0);
         String surName = str.substring(0,firstSym).trim();
