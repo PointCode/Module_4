@@ -6,8 +6,8 @@ public class Camera
 {
     public static HashMap<String, Integer> carsSpeed = new HashMap<>();
 
-    public static Car getNextCar()
-    {
+    public static Car getNextCar(){
+
         String randomNumber = Double.toString(Math.random()).substring(2, 5);
         int randomHeight = (int) (1000 + 3500. * Math.random());
         double randomWeight = 600 + 10000 * Math.random();
@@ -20,8 +20,8 @@ public class Camera
         return car;
     }
 
-    public static int getCarSpeed(Car car)
-    {
+    public static int getCarSpeed(Car car) {
+
         String carNumber = car.getNumber();
         if(!carsSpeed.containsKey(carNumber)) {
             carsSpeed.put(carNumber, (int) (180 * Math.random()));

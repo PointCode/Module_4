@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c231ce39-21c2-4bee-9a12-9fac9e2dfe2c" name="Default" comment="" />
+    <list default="true" id="c231ce39-21c2-4bee-9a12-9fac9e2dfe2c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/core/Camera.java" afterPath="$PROJECT_DIR$/src/core/Camera.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/core/Police.java" afterPath="$PROJECT_DIR$/src/core/Police.java" />
+    </list>
     <ignored path="RoadController.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/src/RoadController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="81" column="44" selection-start-line="81" selection-start-column="40" selection-end-line="81" selection-end-column="47" />
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -35,8 +40,8 @@
       <file leaf-file-name="Camera.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/core/Camera.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.8181818">
-              <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -45,22 +50,26 @@
       <file leaf-file-name="Police.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/core/Police.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.606061">
-              <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
               <folding>
-                <element signature="e#857#858#0" expanded="true" />
-                <element signature="e#886#887#0" expanded="true" />
+                <element signature="e#838#839#0" expanded="true" />
+                <element signature="e#867#868#0" expanded="true" />
+                <element signature="e#951#952#0" expanded="true" />
+                <element signature="e#981#982#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Car.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Car.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/core/Car.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3594132">
+            <state vertical-scroll-proportion="0.0">
               <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
               <folding>
+                <element signature="e#541#542#0" expanded="true" />
+                <element signature="e#573#574#0" expanded="true" />
                 <element signature="e#691#692#0" expanded="true" />
                 <element signature="e#720#721#0" expanded="true" />
                 <element signature="e#754#755#0" expanded="true" />
@@ -69,14 +78,25 @@
                 <element signature="e#853#854#0" expanded="true" />
                 <element signature="e#892#893#0" expanded="true" />
                 <element signature="e#925#926#0" expanded="true" />
-                <element signature="e#1036#1037#0" expanded="true" />
-                <element signature="e#1065#1066#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="WeightMeter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/core/WeightMeter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.12338425">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -86,10 +106,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/RoadController.java" />
-        <option value="$PROJECT_DIR$/src/core/Police.java" />
-        <option value="$PROJECT_DIR$/src/core/Camera.java" />
         <option value="$PROJECT_DIR$/src/core/Car.java" />
+        <option value="$PROJECT_DIR$/src/RoadController.java" />
+        <option value="$PROJECT_DIR$/src/core/Camera.java" />
+        <option value="$PROJECT_DIR$/src/core/Police.java" />
       </list>
     </option>
   </component>
@@ -134,7 +154,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -159,6 +179,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -213,7 +234,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -225,7 +245,7 @@
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Numeric" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -454,7 +474,9 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26607144" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -463,7 +485,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -487,6 +508,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Испарвленны перменные во вспомгательных классах" />
+    <option name="LAST_COMMIT_MESSAGE" value="Испарвленны перменные во вспомгательных классах" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="2" />
@@ -498,6 +523,54 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/RoadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="81" column="44" selection-start-line="81" selection-start-column="40" selection-end-line="81" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/Camera.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/Police.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+          <folding>
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#951#952#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+            <element signature="e#892#893#0" expanded="true" />
+            <element signature="e#925#926#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/RoadController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -519,8 +592,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
           <folding>
-            <element signature="e#857#858#0" expanded="true" />
-            <element signature="e#886#887#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#951#952#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -530,6 +605,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="64" column="1" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
           <folding>
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
             <element signature="e#691#692#0" expanded="true" />
             <element signature="e#720#721#0" expanded="true" />
             <element signature="e#754#755#0" expanded="true" />
@@ -538,8 +615,6 @@
             <element signature="e#853#854#0" expanded="true" />
             <element signature="e#892#893#0" expanded="true" />
             <element signature="e#925#926#0" expanded="true" />
-            <element signature="e#1036#1037#0" expanded="true" />
-            <element signature="e#1065#1066#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -565,8 +640,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="40" column="28" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="28" />
           <folding>
-            <element signature="e#857#858#0" expanded="true" />
-            <element signature="e#886#887#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#951#952#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -576,6 +653,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
           <folding>
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
             <element signature="e#691#692#0" expanded="true" />
             <element signature="e#720#721#0" expanded="true" />
             <element signature="e#754#755#0" expanded="true" />
@@ -584,8 +663,6 @@
             <element signature="e#853#854#0" expanded="true" />
             <element signature="e#892#893#0" expanded="true" />
             <element signature="e#925#926#0" expanded="true" />
-            <element signature="e#1036#1037#0" expanded="true" />
-            <element signature="e#1065#1066#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -609,35 +686,39 @@
     <entry file="file://$PROJECT_DIR$/src/RoadController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="81" column="44" selection-start-line="81" selection-start-column="40" selection-end-line="81" selection-end-column="47" />
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/core/Camera.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.8181818">
-          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/core/Police.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.606061">
-          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
           <folding>
-            <element signature="e#857#858#0" expanded="true" />
-            <element signature="e#886#887#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#951#952#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/core/Car.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3594132">
+        <state vertical-scroll-proportion="0.0">
           <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
           <folding>
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
             <element signature="e#691#692#0" expanded="true" />
             <element signature="e#720#721#0" expanded="true" />
             <element signature="e#754#755#0" expanded="true" />
@@ -646,9 +727,15 @@
             <element signature="e#853#854#0" expanded="true" />
             <element signature="e#892#893#0" expanded="true" />
             <element signature="e#925#926#0" expanded="true" />
-            <element signature="e#1036#1037#0" expanded="true" />
-            <element signature="e#1065#1066#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/WeightMeter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12338425">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
