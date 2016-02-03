@@ -2,30 +2,33 @@ public class Loader
 {
     public static void main(String[] args){
 
-        String text = "Вася заработал 10 рублей, Петя - 7563 рубля, а Маша - 15 рублей";
-       text = text.trim();
+     String text = "Выся заработал 20  рублей, Петя - 7563 рубля, а Маша - 20 рублей";
+     text = text.trim();
 //ищем строку заработка Васи
-        String str = "заработал ";
+     String str = " ";// подстрока в строке  - пробел
+     int numFirst = text.indexOf(str); // поизимця превого вхождения подстрки str
 
-        int fistSym = text.indexOf(str) + str.length(); //длинна строки "заработал " - 10 символов
-        int lastSym = text.indexOf(" ", fistSym);
-        String firstSumStr  = text.substring(fistSym,lastSym);
-        int firstSum = Integer.parseInt(firstSumStr);
+     int fistSym = text.indexOf(str,numFirst+1) +str.length() ; //ищем второе вхождения подстрки str
+     int lastSym = text.indexOf(str, fistSym);//ищем позицию слеющего вхождения подстрки str
+     String firstSumStr  = text.substring(fistSym,lastSym);
+     firstSumStr = firstSumStr.trim(); // удаляем пробелы
+     int firstSum = Integer.parseInt(firstSumStr);
 
 //Ищем строку заработка Маши
-        String str1 = "Маша - ";
-        int fistSym1 = text.indexOf(str1) + str1.length(); //длинна строки "Маша - " 7
-        int lastSym1 = text.indexOf(" ", fistSym1);
-        String firstSumStr1  = text.substring(fistSym1,lastSym1);
-        int firstSum1 = Integer.parseInt(firstSumStr1);
+
+     int fistSym1 = text.lastIndexOf(str); //ищем последнее входение подстркии str
+     int lastSym1 = text.lastIndexOf(str, fistSym1 -1);
+     String firstSumStr1  = text.substring(lastSym1,fistSym1);
+     firstSumStr1 = firstSumStr1.trim();
+     int firstSum1 = Integer.parseInt(firstSumStr1);
 
 
-        System.out.println("Сумма доходов Васи и Маши ровна: " + (firstSum + firstSum1));
+     System.out.println("Сумма доходов Васи и Маши равна: " + (firstSum + firstSum1));
 
-//------ Сколько зараотали все ребята
+//------ Сколько заработали все ребята
         String number[] = text.split("[^0-9]+");
 
-        int vasia = Integer.parseInt(number[1]); // в нулевом индеске массива поустая строка почему не понятно.
+        int vasia = Integer.parseInt(number[1]);
         int petja = Integer.parseInt(number[2]);
         int masha = Integer.parseInt(number[3]);
         int summ = masha +petja+vasia;
