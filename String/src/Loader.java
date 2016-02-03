@@ -11,7 +11,7 @@ public class Loader {
 
 
          char ch ='Ё';
-         int iE = (int)ch;//ch - char, код которого небходимо узнать
+         int iE = (int)ch;      //ch - char, код которого небходимо узнать
         String str = "0x"+(Integer.toString(iE,16)).toUpperCase();
         System.out.println(str +" " + iE);
         System.out.println();
