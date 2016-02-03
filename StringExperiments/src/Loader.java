@@ -4,6 +4,7 @@ public class Loader
 
      String text = "Выся заработал 20  рублей, Петя - 7563 рубля, а Маша - 20 рублей";
      text = text.trim();
+
 //ищем строку заработка Васи
      String str = " ";// подстрока в строке  - пробел
      int numFirst = text.indexOf(str); // поизимця превого вхождения подстрки str
@@ -21,7 +22,6 @@ public class Loader
      String firstSumStr1  = text.substring(lastSym1,fistSym1);
      firstSumStr1 = firstSumStr1.trim();
      int firstSum1 = Integer.parseInt(firstSumStr1);
-
 
      System.out.println("Сумма доходов Васи и Маши равна: " + (firstSum + firstSum1));
 
