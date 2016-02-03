@@ -1,6 +1,3 @@
-/**
- * Created by papa on 24.01.2016.
- */
 public class EnglishText {
     public static void main(String[] args) {
 

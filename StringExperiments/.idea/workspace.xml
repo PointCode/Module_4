@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74551ef3-e027-45c0-ba92-5e70ee5f73c4" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StringExperiments/Loader.class" afterPath="$PROJECT_DIR$/out/production/StringExperiments/Loader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../EnglishText/src/EnglishText.java" afterPath="$PROJECT_DIR$/../EnglishText/src/EnglishText.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Loader.java" afterPath="$PROJECT_DIR$/src/Loader.java" />
     </list>
     <ignored path="StringExperiments.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -138,7 +139,7 @@
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../EnglishText" />
   </component>
   <component name="RunManager" selected="Application.Loader">
     <configuration default="false" name="Loader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -437,7 +438,13 @@
       <option name="project" value="LOCAL" />
       <updated>1454519258538</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Исправленно сумма Васи и Маши">
+      <created>1454519354116</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1454519354116</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
