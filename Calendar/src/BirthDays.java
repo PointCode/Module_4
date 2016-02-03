@@ -12,6 +12,7 @@ public class BirthDays {
     toDay.set(2015,12,19);                      // устанволенная дата
     Date date = birthDay.getTime();
 
+
 //---------расчет возраста и вывод его на кансоль-------
     long age = (toDay.getTimeInMillis() - birthDay.getTimeInMillis()) /1000/3600/24/365;
     System.out.println(age);
