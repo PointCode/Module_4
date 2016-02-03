@@ -22,7 +22,7 @@ public class BirthDays {
 
     int countAge = 0; // счетчи изменения возраста
 
-    while(birthDay.getTimeInMillis() < toDay.getTimeInMillis()) { // сравниаем дату дня раздения с установлелнной
+    while(birthDay.getTimeInMillis() < toDay.getTimeInMillis() ) { // сравниаем дату дня раздения с установлелнной
 
         System.out.println(countAge + " " + fullBirthDay.format(date) + " - " + weekDay.format(date));
         birthDay.add(Calendar.YEAR, 1);

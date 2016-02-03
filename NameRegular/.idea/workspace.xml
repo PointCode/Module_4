@@ -4,9 +4,6 @@
     <list default="true" id="f588fdad-1ccb-47cf-975d-6c1ed262235d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Name/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Name/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/NameRegular.java" afterPath="$PROJECT_DIR$/src/NameRegular.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../String/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../String/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../StringExperiments/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../StringExperiments/.idea/workspace.xml" />
     </list>
     <ignored path="NameRegular.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -137,7 +134,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="project.scopes" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Calendar" />
     <property name="last.edited.regexp" value="Брденев Михаил Вячеслвоович&#10;" />
   </component>
   <component name="RunManager" selected="Application.NameRegular">
@@ -401,6 +398,13 @@
       <option name="number" value="Default" />
       <updated>1454520494914</updated>
     </task>
+    <task id="LOCAL-00001" summary="Добавлен проек ФИО исправленно">
+      <created>1454527545633</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1454527545633</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -414,7 +418,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -445,7 +449,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Добавлен проек ФИО регулерным вырожением" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлен проек ФИО регулерным вырожением" />
+    <MESSAGE value="Добавлен проек ФИО исправленно" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлен проек ФИО исправленно" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

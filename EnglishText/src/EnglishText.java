@@ -17,8 +17,8 @@ String str = "The quality of implementation specifications concern two propertie
         "computed result; otherwise, either of the two floating-point values which bracket the exact " +
         "result may be returned.";
 
-        String[] words = str.split("[^a-zA-Z0-9.,;]");//удаляем всё символы кроме всех английских букв, цифр и занков припенания
-                                                                      //занки припинания не удалются чтобы в выдоде не было пустых строк и коретно отображалась строки с десятичными цифрами
+        String[] words = str.split("[^a-zA-Z0-9.,;]");//Удаляем всё символы кроме всех английских букв, цифр и знаков препинания. Знаки препинания не удаляются чтобы в выводе не было пустых строк и конкретно
+       // отображались строки с десятичными цифрами.пинания не удалются чтобы в выдоде не было пустых строк и коретно отображалась строки с десятичными цифрами
 
         for (String word: words){
 
