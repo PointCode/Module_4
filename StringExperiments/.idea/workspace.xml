@@ -28,8 +28,8 @@
       <file leaf-file-name="Loader.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Loader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.25266904">
+              <caret line="8" column="81" selection-start-line="8" selection-start-column="81" selection-end-line="8" selection-end-column="81" />
               <folding />
             </state>
           </provider>
@@ -431,7 +431,13 @@
       <option name="project" value="LOCAL" />
       <updated>1454519182978</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Исправленно сумма Васи и Маши">
+      <created>1454519258538</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1454519258538</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -477,7 +483,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Форматрование и оптимизация" />
-    <option name="LAST_COMMIT_MESSAGE" value="Форматрование и оптимизация" />
+    <MESSAGE value="Исправленно сумма Васи и Маши" />
+    <option name="LAST_COMMIT_MESSAGE" value="Исправленно сумма Васи и Маши" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -572,8 +579,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Loader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.25266904">
+          <caret line="8" column="81" selection-start-line="8" selection-start-column="81" selection-end-line="8" selection-end-column="81" />
           <folding />
         </state>
       </provider>

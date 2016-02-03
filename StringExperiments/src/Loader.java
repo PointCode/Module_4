@@ -6,18 +6,18 @@ public class Loader
      text = text.trim();
 
 //ищем строку заработка Васи
-     String str = " ";// подстрока в строке  - пробел
-     int numFirst = text.indexOf(str); // поизимця превого вхождения подстрки str
+     String str = " ";                                                           // подстрока в строке  - пробел
+     int numFirst = text.indexOf(str);                                    // поизиция превого вхождения подстрки str
 
      int fistSym = text.indexOf(str,numFirst+1) +str.length() ; //ищем второе вхождения подстрки str
-     int lastSym = text.indexOf(str, fistSym);//ищем позицию слеющего вхождения подстрки str
+     int lastSym = text.indexOf(str, fistSym);                        //ищем позицию слеющего вхождения подстрки str
      String firstSumStr  = text.substring(fistSym,lastSym);
-     firstSumStr = firstSumStr.trim(); // удаляем пробелы
+     firstSumStr = firstSumStr.trim();                                   // удаляем пробелы
      int firstSum = Integer.parseInt(firstSumStr);
 
 //Ищем строку заработка Маши
 
-     int fistSym1 = text.lastIndexOf(str); //ищем последнее входение подстркии str
+     int fistSym1 = text.lastIndexOf(str);                              //ищем последнее входение подстркии str
      int lastSym1 = text.lastIndexOf(str, fistSym1 -1);
      String firstSumStr1  = text.substring(lastSym1,fistSym1);
      firstSumStr1 = firstSumStr1.trim();
