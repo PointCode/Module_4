@@ -1,6 +1,3 @@
-/**
- * Created by papa on 15.12.15.
- */
 public class Loader {
     public static void main(String[] args) {
 
@@ -11,8 +8,17 @@ public class Loader {
        }
         System.out.println();
 
+
+
+         char ch ='Ё';
+         int iE = (int)ch;//ch - char, код которого небходимо узнать
+        String str = "0x"+(Integer.toString(iE,16)).toUpperCase();
+        System.out.println(str +" " + iE);
+        System.out.println();
+
         int codeLittleRusLetter = 277;  //код ё
         int codeLargeRusletter = 1025; // код Ё
+
         char littleRusLetter = (char) codeLittleRusLetter ;
         char largeRusletter = (char) codeLargeRusletter ;
         System.out.println("Код русской буквы " + littleRusLetter + " = " + codeLittleRusLetter );
