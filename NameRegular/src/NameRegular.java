@@ -6,17 +6,30 @@ import java.io.InputStreamReader;
  * Created by papa on 24.01.2016.
  */
 public class NameRegular {
-    public static void main ( String[] args ) throws IOException {
+    public static void main(String[] args) throws IOException {
 
-        System.out.println ( "Введите фамилию имя и отчество: " );
+        System.out.println("Введите Фамилию Имя и Отчество: ");
 
-        BufferedReader br = new BufferedReader ( new InputStreamReader( System.in ) );
-        String str = br.readLine ( );
-        String[] words = str.split ( "[\\s*]" );
+       BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        String str = br.readLine(); //"Брдёнев Михаил Вячеслвович";
+        str = str.trim();
+        String reg = "^([А-ЯЁ]{1}[а-яё]+\\s?){3}$";//проверяме строку по русским буквам,  и через пробел
+                                                                           // в трех элементах, Новый элемент начинася с заглавной
 
-        System.out.println ( "Фамилия: " + words[ 0 ] );
-        System.out.println ( "Имя: " + words[ 1 ] );
-        System.out.println ( "Отчество: " + words[ 2 ] );
+
+        boolean boolInputStringRegex = str.matches(reg);
+        System.out.println(boolInputStringRegex);
+
+// если веденные денные удовлетворяют уловияю заносим ФИО в массив и выводим
+        if (boolInputStringRegex) {
+            String[] words = str.split("[\\s*]");
+
+            System.out.println("Фамилия: " + words[0]);
+            System.out.println("Имя: " + words[1]);
+            System.out.println("Отчество: " + words[2]);
+        }else {
+            System.out.println("Введиет ФИО в правильном формате: Фамилия Имя Отчество");
+        }
 
     }
 }
