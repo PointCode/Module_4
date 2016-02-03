@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 public class Camera
 {
-    public static HashMap<String, Integer> carsSpeed = new HashMap<>();
+    public static HashMap<String, Integer> carsSpeed = new HashMap<>(); // Integer на int не меняется
 
     public static Car getNextCar(){
 

@@ -8,7 +8,7 @@ public class Car
     private boolean hasVehicle;
     private boolean isSpecial;
 
-    public Car(String carNumber, int carHeight, Double carWeight, Boolean carHasVehicle)
+    public Car(String carNumber, int carHeight, double carWeight, boolean carHasVehicle)
     {
         number = carNumber;
         height = carHeight;
