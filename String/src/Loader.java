@@ -39,7 +39,7 @@ public class Loader {
         System.out.println();
 // Выводим русские символы и их код по UTF8
         System.out.println("Код - Символ");
-        for (int i = 1040; i <= 1103; i++ )
+        for (int i = 1040; i <= 1105; i++ )
         {
             char intCode = (char) i;
 
