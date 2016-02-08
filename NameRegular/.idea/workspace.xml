@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f588fdad-1ccb-47cf-975d-6c1ed262235d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../EnglishText/out/production/EnglishText/EnglishText.class" afterPath="$PROJECT_DIR$/../EnglishText/out/production/EnglishText/EnglishText.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../EnglishText/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../EnglishText/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../EnglishText/src/EnglishText.java" afterPath="$PROJECT_DIR$/../EnglishText/src/EnglishText.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../String/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../String/.idea/workspace.xml" />
     </list>
     <ignored path="NameRegular.iws" />
     <ignored path=".idea/workspace.xml" />

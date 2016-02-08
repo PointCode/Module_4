@@ -17,7 +17,7 @@ String str = "The quality of implementation specifications concern two propertie
         "computed result; otherwise, either of the two floating-point values which bracket the exact " +
         "result may be returned.";
         //"Все почти правильно. К сожалению, Ваше решение выдаст и числа, если они будут в тексте. Прошу исправить"
-        // цифр смысл текста теряется если его придется потом опять в строку преобразовавать.
+        // без цифр смысл текста теряется если его придется потом опять в строку преобразовавать.
 //исправил
         //удаляем цифры  лишние пробелы с точками которые стояли рядом  с цифрами
         str= str.replaceAll("\\d."," ");
