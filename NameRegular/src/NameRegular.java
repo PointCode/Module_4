@@ -2,23 +2,21 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-/**
- * Created by papa on 24.01.2016.
- */
 public class NameRegular {
     public static void main(String[] args) throws IOException {
 
-        System.out.println("Введите Фамилию Имя и Отчество: ");
+        System.out.println("Введите Фамилию Имя  Отчество: ");
 
-       BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        String str = br.readLine(); //"Брдёнев Михаил Вячеслвович";
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        String str = br.readLine();
         str = str.trim();
-        String reg = "^([А-ЯЁ]{1}[а-яё]+\\s?){3}$";//проверяме строку по русским буквам,  и через пробел
-                                                                           // в трех элементах, Новый элемент начинася с заглавной
+
+        String reg = "^([А-ЯЁ]{1}[а-яё]+)\\s+([А-ЯЁ]{1}[а-яё]+)\\s+([А-ЯЁ]{1}[а-яё]+)$"; //проверяме строку по русским буквам,  и через пробел
+                                                                                                                                 // в трех элементах, Новый элемент начинася с заглавной
 
 
         boolean boolInputStringRegex = str.matches(reg);
-        System.out.println(boolInputStringRegex);
+    //    System.out.println(boolInputStringRegex);
 
 // если веденные денные удовлетворяют уловияю заносим ФИО в массив и выводим
         if (boolInputStringRegex) {
