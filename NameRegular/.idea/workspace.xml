@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f588fdad-1ccb-47cf-975d-6c1ed262235d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/NameRegular/NameRegular.class" afterPath="$PROJECT_DIR$/out/production/NameRegular/NameRegular.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../README.md" afterPath="$PROJECT_DIR$/../README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/NameRegular.java" afterPath="$PROJECT_DIR$/src/NameRegular.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../String/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../String/.idea/workspace.xml" />
     </list>
     <ignored path="NameRegular.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -417,7 +417,13 @@
       <option name="project" value="LOCAL" />
       <updated>1454966068392</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Добавлен проек ФИО исправленно 09.02.2016">
+      <created>1454966689174</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1454966689174</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
