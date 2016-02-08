@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 public class NameRegular {
     public static void main(String[] args) throws IOException {
 
-        System.out.println("Введите Фамилию Имя  Отчество: ");
+        System.out.println("Введите Фамилию Имя Отчество: ");
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String str = br.readLine();
