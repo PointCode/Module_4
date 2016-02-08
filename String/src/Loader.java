@@ -10,13 +10,13 @@ public class Loader {
 
 
 
-         char ch ='Ё';
+         char ch ='ё';
          int iE = (int)ch;      //ch - char, код которого небходимо узнать
         String str = "0x"+(Integer.toString(iE,16)).toUpperCase();
         System.out.println(str +" " + iE);
         System.out.println();
 
-        int codeLittleRusLetter = 277;  //код ё
+        int codeLittleRusLetter = 1105;  //код ё
         int codeLargeRusletter = 1025; // код Ё
 
         char littleRusLetter = (char) codeLittleRusLetter ;
