@@ -1,3 +1,7 @@
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 public class EnglishText {
     public static void main(String[] args) {
 
@@ -16,20 +20,13 @@ String str = "The quality of implementation specifications concern two propertie
         "when the exact result is a representable number, the exact result should be returned as the " +
         "computed result; otherwise, either of the two floating-point values which bracket the exact " +
         "result may be returned.";
-        //"Все почти правильно. К сожалению, Ваше решение выдаст и числа, если они будут в тексте. Прошу исправить"
-        // без цифр смысл текста теряется если его придется потом опять в строку преобразовавать.
-//исправил
-        //удаляем цифры  лишние пробелы с точками которые стояли рядом  с цифрами
-        str= str.replaceAll("\\d."," ");
-        str = str.replaceAll("[\\s]{2,}"," ");
 
-        String[] words = str.split("[^a-zA-Z.,;]");//Удаляем всё символы кроме всех английских букв и знаков препинания. Знаки препинания не удаляются чтобы в выводе не было пустых строк и конкретно
-       // отображались строки с десятичными цифрами.пинания не удалются чтобы в выдоде не было пустых строк и коретно отображалась строки с десятичными цифрами
-
-
-        for (String word: words){
-
-            System.out.println(word);
+        Pattern pattern =  Pattern.compile("[A-Za-z]+");
+        Matcher matcher = pattern.matcher(str);
+        String strValues;
+        while (matcher.find()){
+            strValues = matcher.group();
+            System.out.println(strValues);
         }
     }
 }
